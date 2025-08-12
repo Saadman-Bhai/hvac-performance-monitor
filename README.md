@@ -1,2 +1,19 @@
-# hvac-performance-monitor
-The HVAC System Performance Monitor is a web-based application designed to analyze and monitor HVAC system health using AI-driven data analysis. Users can upload simulated sensor data — including temperature, humidity, airflow, and energy consumption  to visualize real-time performance metrics, detect anomalies and predict system efficiency scores.
+# HVAC System Performance Monitor
+
+This is a fully web-based project that monitors HVAC system performance using AI-driven analysis of simulated sensor data.
+
+## Features
+
+- Upload HVAC sensor CSV data (temperature, humidity, airflow, energy consumption)
+- Visualize sensor data dynamically in graphs
+- AI model detects anomalies and predicts efficiency score
+- Easy web dashboard with React frontend and Flask backend
+
+## Setup Instructions
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+
+   ```bash
+   cd backend
