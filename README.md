@@ -1,19 +1,40 @@
 # HVAC System Performance Monitor
 
-This is a fully web-based project that monitors HVAC system performance using AI-driven analysis of simulated sensor data.
+A web-based application that uses AI-driven analysis to monitor HVAC system performance through simulated sensor data.  
+Built with React (frontend) and Python Flask (backend), this project helps detect anomalies, predict system efficiency, and visualize key HVAC metrics.
+
+---
 
 ## Features
 
-- Upload HVAC sensor CSV data (temperature, humidity, airflow, energy consumption)
-- Visualize sensor data dynamically in graphs
-- AI model detects anomalies and predicts efficiency score
-- Easy web dashboard with React frontend and Flask backend
+- Upload CSV files with HVAC sensor data: temperature, humidity, airflow, energy consumption  
+- Visualize sensor data in interactive charts  
+- AI-based anomaly detection and efficiency scoring  
+- User-friendly dashboard with instant feedback  
+- Fully web-based; no hardware required initially  
 
-## Setup Instructions
+---
+
+## Tech Stack
+
+- **Frontend:** React.js, Chart.js  
+- **Backend:** Python Flask, Pandas, Flask-CORS  
+- **AI Model:** Simple heuristic-based anomaly detection  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x  
+- Node.js and npm  
 
 ### Backend Setup
 
-1. Navigate to the backend folder:
-
-   ```bash
-   cd backend
+```bash
+cd backend
+python -m venv venv            # Optional but recommended
+source venv/bin/activate       # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
